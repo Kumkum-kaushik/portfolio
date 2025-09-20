@@ -2,6 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
+import profile from '../assets/images/profile.jpg';
 
 function Main() {
   return (
@@ -11,7 +12,7 @@ function Main() {
         {/* Profile Image */}
         <div className="image-wrapper">
           <img 
-            src={`${process.env.PUBLIC_URL}/Profile.jpg`} 
+            src={profile} 
             alt="Kumkum Kaushik" 
             width="200" 
             height="200" 
