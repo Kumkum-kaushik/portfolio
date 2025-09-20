@@ -14,6 +14,7 @@ import blinkit from '../assets/images/blinkit.png';
 import road from '../assets/images/road.png';
 import langchain from '../assets/images/langchain.png';
 import bank from '../assets/images/bank.png';
+import Leaf from '../assets/images/Leaf.png';
 
 
 function Project() {
@@ -45,6 +46,7 @@ By providing comprehensive insights into key loan-related metrics, this project 
 
 This project includes interactive dashboards for tracking KPIs, visualizing trends, and diving into detailed loan data.</p>
             </div>
+            
         </div>
     </div>
     );
